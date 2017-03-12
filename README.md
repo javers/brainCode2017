@@ -9,6 +9,10 @@ This could be your first open source contribution. Awesome!
 
 ## Intro
 
+Amazon DynamoDB is the NoSQL database with the ColumnFamily data model.
+//TODO
+
+JaVers is the open source Java library for auditing changes in domain objects.
 //TODO
 
 ## Getting Started
@@ -25,7 +29,7 @@ When you run it locally, launch Razor SQL and:
 Create `hello_world` table with hash attribute `my_id`.
 
 Run a few queries using unofficial,
-SQL-like [query language](http://razorsql.com/docs/dynamodb_sql_support.html) for DynamoDB, created by Razor.
+SQL-like, [query language](http://razorsql.com/docs/dynamodb_sql_support.html) for DynamoDB, created by Razor.
 
 Insert an item with `String` attribute:
 
@@ -49,9 +53,9 @@ As you can see, item attributes are added dynamically.
 
 See [Introduction to DynamoDB Concepts](http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/quick-intro.html)
 <br/>
-See [DynamoDB Documentation](https://aws.amazon.com/documentation/dynamodb/).
+See [DynamoDB Documentation](https://aws.amazon.com/documentation/dynamodb/)
 
-*** JaVers
+### JaVers
 
 //TODO
 
