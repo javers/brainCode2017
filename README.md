@@ -3,12 +3,13 @@
 
 Your goal is to write JaversRepository for [Amazon DynamoDB](https://aws.amazon.com/dynamodb/details/)
 
-If you succeeded, your code will merged to [JaVers](http://javers.org) master and released. <br/>
+If you succeeded, your code will be merged to [JaVers](http://javers.org) master and released. <br/>
 Thousands of JaVers users will be able to use DynamoDB with JaVers.
 This could be your first open source contribution. Awesome!
 
 ## Intro
 
+//TODO
 
 ## Getting Started
 
@@ -49,6 +50,10 @@ As you can see, item attributes are added dynamically.
 See [Introduction to DynamoDB Concepts](http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/quick-intro.html)
 <br/>
 See [DynamoDB Documentation](https://aws.amazon.com/documentation/dynamodb/).
+
+*** JaVers
+
+//TODO
 
 ## Required tools
 
