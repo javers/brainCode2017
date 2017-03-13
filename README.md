@@ -14,9 +14,16 @@ This could be your first open source contribution. Awesome!
 **JaVers** is an open source Java library for domain objects auditing.
 JaVers captures snapshots of domain objects (Entities) and persists them in a dedicated storage,
 called JaversRepository.
-Having some snapshots saved in a JaversRepository, it's easy to browse objects' history.
+Having some snapshots saved in a JaversRepository, it's easy to browse objects' history 
 and check how they looked like in the past. See [examples](http://javers.org/documentation/repository-examples/). 
 
+So far, JaVers provides two implementations of JaversRepository:
+
+* [SqlRepository](https://github.com/javers/javers/blob/master/javers-persistence-sql/src/main/java/org/javers/repository/sql/JaversSqlRepository.java),
+* [MongoRepository](https://github.com/javers/javers/blob/master/javers-persistence-mongo/src/main/java/org/javers/repository/mongo/MongoRepository.java).
+ 
+Our goal is to create the new implementation for DynamoDB.
+ 
 ## Getting Started
 
 ### DynamoDB
