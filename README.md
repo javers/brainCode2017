@@ -9,11 +9,13 @@ This could be your first open source contribution. Awesome!
 
 ## Intro
 
-Amazon DynamoDB is the NoSQL database with the ColumnFamily data model.
-//TODO
+**Amazon DynamoDB** is a NoSQL database with a ColumnFamily data model, similar to Cassandra. 
 
-JaVers is the open source Java library for auditing changes in domain objects.
-//TODO
+**JaVers** is an open source Java library for domain objects auditing.
+JaVers captures snapshots of domain objects (Entities) and persists them in a dedicated storage,
+called JaversRepository.
+Having some snapshots saved in a JaversRepository, it's easy to browse objects' history.
+and check how they looked like in the past. See [examples](http://javers.org/documentation/repository-examples/). 
 
 ## Getting Started
 
