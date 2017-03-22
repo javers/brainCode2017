@@ -60,9 +60,12 @@ select * from hello_world
 
 As you can see, item attributes are added dynamically.
 
-See [Introduction to DynamoDB Concepts](http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/quick-intro.html)
-<br/>
-See [DynamoDB Documentation](https://aws.amazon.com/documentation/dynamodb/)
+See:
+ 
+* [Introduction to DynamoDB Concepts](http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/quick-intro.html)
+* [Getting Started - Java](http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/GettingStarted.Java.html)
+* [Data Types](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.NamingRulesDataTypes.html#HowItWorks.DataTypes)
+* [DynamoDB Documentation](https://aws.amazon.com/documentation/dynamodb/)
 
 ### JaVers
 
