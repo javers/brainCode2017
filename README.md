@@ -67,9 +67,57 @@ See:
 * [Data Types](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.NamingRulesDataTypes.html#HowItWorks.DataTypes)
 * [DynamoDB Documentation](https://aws.amazon.com/documentation/dynamodb/)
 
-### JaVers
+### JaVers development 
 
-//TODO
+Checkout our github repository:
+
+```
+git clone https://github.com/javers/javers.git
+cd javers
+```
+
+Checkout the `dynamoDb` branch:
+
+```
+git checkout dynamoDb
+```
+
+Build & test
+
+```
+./gradlew test
+
+```
+
+Run integration test for DynamoDB:
+
+```
+./gradlew javers-persistence-dynamodb:integrationTest
+```
+
+`DynamoDbSmokeTest` should be green and `DynamoRepositoryE2ETest` should be red since
+`DynamoRepository` is not implemented yet.
+
+## Your task
+
+Your task is to make all tests green. 
+
+* Fork the javers repository to dedicated space provided by BrainCode mentors.
+* Implement `DynamoRepository`
+* Work in a team? That's great, but don't push the whole team work at once. We want to see 
+  individual commits of each team member.
+* Create a pull request to `dynamoDb` branch in the javers repositorty.
+* Make sure that CI is green, see [travis-ci.org](https://travis-ci.org/javers/javers/builds).
+* Ask other attendee for the code review.
+
+### How we evaluate your solution
+
+* Code should be clean.
+* End-to-end test is already there, but what about unit tests? Do we need them?
+* Performance is the key. How you measure it?
+  Provide performance tests and runtime statistics for various types of JaVers queries.
+* Data model in DynamoDB should be well designed.
+  Take a look how we designed database schemas for MongoDB and SQL.
 
 ## Required tools
 
