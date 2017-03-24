@@ -95,22 +95,22 @@ Run integration test for DynamoDB:
 ./gradlew javers-persistence-dynamodb:integrationTest
 ```
 
-`DynamoDbSmokeTest` should be green and `DynamoRepositoryE2ETest` should be red since
+`DynamoDbSmokeTest` should be green. `DynamoRepositoryE2ETest` should be red since
 `DynamoRepository` is not implemented yet.
 
 ## Your task
 
 Your task is to make all tests green. 
 
-* Fork the javers repository to dedicated space provided by BrainCode mentors.
-* Implement `DynamoRepository`
+* Fork the JaVers repository to dedicated space provided by BrainCode mentors.
+* Implement `DynamoRepository`.
 * Work in a team? That's great, but don't push the whole team work at once. We want to see 
   individual commits of each team member.
 * Create a pull request to `dynamoDb` branch in the javers repositorty.
 * Make sure that CI is green, see [travis-ci.org](https://travis-ci.org/javers/javers/builds).
 * Ask other attendee for the code review.
 
-### How we evaluate your solution
+### How we will evaluate your solution
 
 * Code should be clean.
 * End-to-end test is already there, but what about unit tests? Do we need them?
